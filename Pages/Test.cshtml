@@ -1,0 +1,22 @@
+@page
+@model VONetTesting.Pages.TestModel
+@{
+    Layout = "_Layout";
+}
+
+<h1>Test Page</h1>
+<p>This is a randomly generated test page.</p>
+
+<ul>
+    <li>Random Number: @Model.RandomNumber</li>
+    <li>Random String: @Model.RandomString</li>
+    <li>Current Time: @Model.CurrentTime</li>
+</ul>
+
+<p>Here are some random facts:</p>
+<ul>
+@foreach (var fact in Model.RandomFacts)
+{
+    <li>@fact</li>
+}
+</ul>

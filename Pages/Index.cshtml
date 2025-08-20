@@ -1,5 +1,8 @@
 @page
 @model VONetTesting.Pages.IndexModel
+@{
+    Layout = "_Layout";
+}
 
 <h1>Welcome</h1>
 <p>This is the index page.</p>
@@ -14,3 +17,20 @@
     }
     </ul>
 }
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var feature in Model.Features)
+        {
+            <tr>
+                <td>@feature</td>
+                <td>This is a description of the @feature feature.</td>
+            </tr>
+        }
+    </tbody>
