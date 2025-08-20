@@ -3,5 +3,6 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>VONetTesting</RootNamespace>
   </PropertyGroup>
 </Project>
