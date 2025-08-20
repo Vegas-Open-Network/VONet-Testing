@@ -1,0 +1,16 @@
+@page
+@model VONetTesting.Pages.IndexModel
+
+<h1>Welcome</h1>
+<p>This is the index page.</p>
+
+@if (Model.Features.Count > 0)
+{
+    <p>Here are some features of this site:</p>
+    <ul>
+    @foreach (var feature in Model.Features)
+    {
+        <li>@feature</li>
+    }
+    </ul>
+}
