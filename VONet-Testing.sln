@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36414.22 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VONet-Testing", "VONet-Testing.csproj", "{06763295-192F-ECED-C318-548CB51BE9C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VONetTesting.Tests", "VONetTesting.Tests\VONetTesting.Tests.csproj", "{68262530-7A1E-47C8-9723-37A4A8076510}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{06763295-192F-ECED-C318-548CB51BE9C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06763295-192F-ECED-C318-548CB51BE9C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06763295-192F-ECED-C318-548CB51BE9C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68262530-7A1E-47C8-9723-37A4A8076510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68262530-7A1E-47C8-9723-37A4A8076510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68262530-7A1E-47C8-9723-37A4A8076510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68262530-7A1E-47C8-9723-37A4A8076510}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
